@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f49a20;
+            color: #6318e5;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .left-section {
+            flex: 1;
+            max-width: 60%;
+            padding-right: 20px;
+        }
+        .left-section img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .right-section {
+            flex: 1;
+            max-width: 40%;
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .right-section input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .right-section button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #673ab7;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <section class="text-gray-600 body-font">
+        <div class="container">
+          <div class="left-section">
+            <h1 class="title-font font-medium text-3xl">EduBix.ai</h1>
+           <p class="leading-relaxed mt-4">Empowering Minds, Connecting Futures: Your AI-Powered Student Hub</p>
+            <img class="object-cover" alt="hero" src="/Capture22.PNG" height="20%" width="20%">
+          </div>
+          <div class="right-section">
+            <h2 class="text-lg font-medium">Sign Up</h2>
+            <div class="relative mb-4">
+              <label for="full-name">Full Name</label>
+              <input type="text" id="full-name" name="full-name">
+            </div>
+            <div class="relative mb-4">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email">
+            </div>
+            <div class="relative mb-4">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <button>Sign Up</button>
+          </div>
+        </div>
+    </section>
+</body>
+</html>

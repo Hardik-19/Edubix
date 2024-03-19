@@ -1,0 +1,84 @@
+/* Reset some default styles for better consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color and font styles for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation menu (you can customize colors, fonts, and layout) */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the About Us section */
+#about-us {
+    padding: 40px;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about-us h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#about-us p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Style the Contact section (customize as needed) */
+#contact {
+    padding: 40px;
+    background-color: #eee;
+}
+
+#contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Style the footer (customize as needed) */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Add more styles as needed for buttons, links, and other elements on your page */

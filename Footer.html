@@ -1,0 +1,257 @@
+<html lang="en">
+	<head>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+        <style media="screen">
+          body 
+          {
+            padding: 0;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: flex-end;
+          }
+          
+          footer 
+          {
+            background-color: #c48208;
+            color: #000000;
+            font-size: 16px;
+          }
+          
+          footer * 
+          {
+            font-family: "Poppins", sans-serif;
+            box-sizing: border-box;
+            border: none;
+            outline: none;
+          }
+          
+          .row 
+          {
+            padding: 1em 1em;
+          }
+          
+          .row.primary 
+          {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 2fr;
+            align-items: stretch;
+          }
+          
+          .column
+          {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: 0 2em;
+            min-height: 15em;
+          }
+          
+          h3 , h4 
+          {
+            width: 100%;
+            text-align: left;
+            color: white;
+            border-bottom-width: 60px;
+            font-size: 1.4em;
+            white-space: nowrap;
+          }
+          
+          ul 
+          {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            margin: 0;
+          }
+          
+          li:not(:first-child) 
+          {
+            margin-top: 0.8em;
+          }
+          
+          ul li a 
+          {
+            color: #000000;
+            text-decoration: none;
+          }
+          
+          ul li a:hover 
+          {
+            color: #219C90;
+          }
+          .about p {
+            text-align: justify;
+            line-height: 2;
+            margin: 0;
+          }
+          
+          input,
+          button 
+          {
+            font-size: 1em;
+            padding: 1em;
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 5px;
+          }
+
+          button 
+          {
+            background-color: #D83F31;
+            color: #ffffff;
+          }
+          
+          div.social 
+          {
+            display: flex;
+            justify-content: space-around;
+            font-size: 2.4em;
+            flex-direction: row;
+            margin-top: 0.5em;
+          }
+          
+          .social i 
+          {
+            color: #bac6d9;
+          }
+
+          .text
+          {
+          	size: 20px;
+          	color:#219C90
+          }
+          
+          .copyright 
+          {
+            padding: 0.3em 1em;
+            background-color: #25262e;
+          }
+          
+          .footer-menu
+          {
+            float: left;
+            margin-top: 10px;
+          }
+
+          .footer-menu a
+          {
+            color: #219C90;
+            padding: 6px;
+            text-decoration: none;
+          }
+          .footer-menu a:hover
+          {
+            color: #EE9322;
+          }
+          
+          .copyright p 
+          {
+            font-size: 0.9em;
+            text-align: right;
+          }
+          
+          .footer-col .social-links a
+          {
+              display: inline-block;
+              height: 40px;
+              width: 40px;
+              background-color: rgba(255,255,255,0.2);
+              margin:0 10px 10px 0;
+              text-align: center;
+              line-height: 40px;
+              border-radius: 50%;
+              transition: all 0.5s ease;
+          }
+          
+          .footer-col .social-links a:hover
+          {
+              color: red;
+              background-color: #ffffff;
+          }
+          
+          @media screen and (max-width: 850px) 
+          {
+            .row.primary 
+            {
+              grid-template-columns: 1fr;
+            }
+          }
+      </style>
+ </head>
+	<body>
+		<footer>
+      		<div class="row primary">
+        		<div class="column about">
+         		    <h3>Edubix.AI</h3>
+          			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,voluptatem corporis error non,
+          			</p>
+           			<div class="footer-col">
+  	 			        <h4>Follow Us</h4>
+  	 					<div class="social-links">
+                            <!-- Facebook -->
+                            <a class="btn btn-primary" style="background-color: #3b5998;color:white;" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+                            <!-- Github -->
+                            <a class="btn btn-primary" style="background-color: #333333; color:white;" href="#!" role="button"><i class="fab fa-github"></i></a>
+                            <!-- Twitter -->
+                            <a class="btn btn-primary" style="background-color: #55acee;color:white;" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+  	 				        <!-- Instagram -->
+							<a class="btn btn-primary" style=" background: #f09433; 
+                            background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+                            background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+                            background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+                            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );" href="#!" role="button"><i                                   class="fab fa-instagram"></i></a>
+  	 						<!-- Linkedin -->
+							<a class="btn btn-primary" style="background-color: #0082ca ;color:white;;" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+  	 					</div>
+                    </div>
+      		    </div>
+                <div class="column links">
+                    <h3>Disclaimer</h3>
+                    <p>DISCLIAMER</p>
+        		</div>
+         	    <div class="column links">
+            		<h3>Some Links</h3>
+                    <ul>
+                        <li></li>
+                        <li>
+                            <a href="#faq">F.A.Q</a>
+                      	</li>
+                      	<li>
+                            <a href="#cookies-policy">Cookies Policy</a>
+                        </li>
+                        <li>
+                            <a href="#terms-of-services">Terms Of Service</a>
+                        </li>
+                        <li>
+                            <a href="#support">Support</a>
+                        </li>
+            		</ul>
+        	    </div>
+        		<div class="column subscribe">
+          			<h3>Newsletter</h3>
+                    <p>Get the latest updates & notification at your fingertips by subscribing our newsletter.</p>
+          		    <div>
+                      <input type="email" placeholder="Your email id here">
+                      <button>Subscribe</button>
+          			</div>
+        		</div>
+      		</div>
+      		<div class="row copyright">
+        		<div class="footer-menu">
+                    <a href="">Home</a>
+                    <a href="">About</a>
+                    <a href="">Contact</a>
+                    <a href="">Blog</a>
+  		   	        <a href="">Social</a>
+				</div>
+                <div class="text">
+        	        <p>Copyright © 2023 Edubix.AI</p>
+            	</div>
+      		</div>
+    	</footer>
+	</body>
+</html>
